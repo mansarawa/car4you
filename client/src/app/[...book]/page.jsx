@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import Image from 'next/image'
 import Fortuner from '../../../assets/fortuner.png'
 import React from 'react'
@@ -21,6 +22,7 @@ export default function page  (params)  {
   const [process, setProcess] = useState('process')
   const user=JSON.parse(localStorage.getItem('user'))
   const [pickuptime, setPickuptime] = useState('')
+  const [phone,setPhone]=useState('')
   const [droptime, setDroptime] = useState('')
 
    if(user._id==null)
@@ -29,6 +31,7 @@ export default function page  (params)  {
    }
   
    const userid=user._id
+   const name=user.username
   console.log(user)
   const handlesubmit=async()=>{
     const res=await fetch('http://localhost:3004/book',{
@@ -43,6 +46,8 @@ export default function page  (params)  {
         dropdate:dropdate,
         status:process,
         carname:carname,
+        name:name,
+        phone:phone,
         userid:userid,
         // pickuptime:pickuptime,
         // droptime:droptime
@@ -60,9 +65,37 @@ export default function page  (params)  {
     router.push('/');
     
   }
+
+  const handleLogout = (e) => {
+    e.preventDefault();
+    localStorage.clear("user");
+    window.location.reload();
+  };
   return (
     <div className={Book.container}>
-    
+     <nav className={Book.hnav}>
+      <ul className={Book.ul}>
+        <li className={Book.li}><Link href='/' className={Book.link}>Home</Link></li>
+        <li className={Book.li}><Link href='/service' className={Book.link}>Services</Link></li>
+        <li className={Book.li}><Link href='/terms' className={Book.link}>Terms&conditions</Link></li>
+        {!user && <li className={Book.li}><Link href='/registeruser' className={Book.link}>Register</Link></li>}
+        {!user ? (
+          <>
+            <li className={Book.li}><Link href='/login' className={Book.link}>Login</Link></li>
+          </>
+        ) : (
+          <>
+            <li className={Book.li}><Link href='/mybooking' className={Book.link}>My Bookings</Link></li>
+            <li className={Book.li}><Link onClick={handleLogout} href='' id={Book.logout} className={Book.link}>Logout</Link></li>
+          </>
+        )}
+        <div className={Book.burger}>
+          <div className={Book.line}></div>
+          <div className={Book.line}></div>
+          <div className={Book.line}></div>
+        </div>
+      </ul>
+    </nav>
         <div className={Book.booking}>
           <form onSubmit={handlesubmit}>
           <h1 className={Book.heading}>Booking For {carname.charAt(0).toUpperCase() + carname.slice(1)}</h1>
@@ -88,7 +121,11 @@ export default function page  (params)  {
             
             </div>
             <div className={Book.inputbox}>
-              <button style={{padding:'7px',marginTop:'25%',outline:"none",border:'none',cursor:'pointer',background:'#0d6efd',border:"none",borderRadius:'5px',color:'#fff',fontSize:'18px'}}>Submit</button>
+              <span>Phone Number</span>
+              <input type="number" required placeholder='7777-666-555' onChange={(e)=>setPhone(e.target.value)} style={{padding:'7px',outline:"none",border:'none'}} name="phone" id="" />
+            </div>
+            <div className={Book.inputbox}>
+              <button style={{padding:'7px',marginTop:'10%',outline:"none",border:'none',cursor:'pointer',background:'#0d6efd',border:"none",borderRadius:'5px',color:'#fff',fontSize:'18px'}}>Submit</button>
             </div>
             </form>
         </div>

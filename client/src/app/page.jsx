@@ -28,6 +28,7 @@ export default function Home() {
     localStorage.clear("user") 
     window.location.reload()
   }
+
  
   return (
     <body style={{ margin: '0px' }}>

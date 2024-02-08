@@ -4,6 +4,8 @@ const bookSchema=new Schema({
     pickup:String,
     drop:String,
     carname:String,
+    phone:Number,
+    name:String,
     pickupdate: Date,
     dropdate: Date,
     status:String,

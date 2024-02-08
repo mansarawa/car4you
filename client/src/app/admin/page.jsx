@@ -7,7 +7,7 @@ export default function Page() {
 
   async function fetchData() {
     try {
-      const res = await fetch('http://localhost:3002/admin', {
+      const res = await fetch('http://localhost:3004/admin', {
         method: 'get',
         headers: {
           'Content-Type': 'application/json',
@@ -117,7 +117,7 @@ export default function Page() {
                     ''
                   )}
                   {item.status === 'completed'?"": item.status === 'process'?(
-                    <button onClick={() => handleReject(item._id)} className={Admin.btn}>
+                    <button onClick={() => handleReject(item._id)} style={{color:'red'}} className={Admin.btn}>
                       Reject
                     </button>):('')
                   }

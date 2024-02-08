@@ -1,10 +1,12 @@
 import Book from "../models/Book.js";
 export  async function  bookcar(req,res){
-    const {pickup,drop,pickupdate,pickuptime,droptime,userid,carname,status,dropdate}=req.body;
+    const {pickup,drop,pickupdate,phone,name,pickuptime,droptime,userid,carname,status,dropdate}=req.body;
     const newBook= Book.create({
         pickup:pickup,
         drop:drop,
         pickupdate:pickupdate,
+        phone:phone,
+        name:name,
         status:status,
         carname:carname,
         pickuptime:pickuptime,
