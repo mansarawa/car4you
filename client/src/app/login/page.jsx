@@ -30,10 +30,11 @@ const page = () => {
         const result=await res.json();
         if(result.success)
         {
+          router.push('/')
           localStorage.setItem("user",JSON.stringify(result.user))
           console.log(JSON.parse(localStorage.getItem("user")))
           //setAlert(user.username)
-          router.push('/')
+          
         }
         
         // else{
@@ -48,6 +49,11 @@ const page = () => {
           
         // }
     }
+    const handleLogout = (e) => {
+      e.preventDefault();
+      localStorage.clear("user");
+      window.location.reload();
+    };
   return (
    <>
       {/* <div class="alert alert-danger" id={Login.alert1} role="alert">

@@ -16,6 +16,7 @@ export default function page  (params)  {
 
   const [pickup, setPickup] = useState()
   const [drop,setDrop]=useState();
+  const [alert,setAlert]=useState('Your booking has been sent');
   const carname=params.params.book[1];
   const [pickupdate,setPickpupdate]=useState();
   const [dropdate,setDropdate]=useState();
@@ -33,7 +34,8 @@ export default function page  (params)  {
    const userid=user._id
    const name=user.username
   console.log(user)
-  const handlesubmit=async()=>{
+  const handlesubmit=async(e)=>{
+    e.preventDefault();
     const res=await fetch('http://localhost:3004/book',{
       method:"post",
       headers:{
@@ -57,12 +59,12 @@ export default function page  (params)  {
   
     )
     const result=await res.json();
-    if(result =='booking conformed')
+    if(result.message =='conform')
     {
       console.log("booking conformed")
-     
+      setAlert('Congratulations Your booking has been sent')
     }
-    router.push('/');
+   // router.push('/');
     
   }
 
@@ -99,6 +101,7 @@ export default function page  (params)  {
         <div className={Book.booking}>
           <form onSubmit={handlesubmit}>
           <h1 className={Book.heading}>Booking For {carname.charAt(0).toUpperCase() + carname.slice(1)}</h1>
+          <h1 className={Book.heading2}>{alert}</h1>
           <div className={Book.inputbox}>
             <span>Pick up </span> 
             <input type="text" required onChange={(e)=>setPickup(e.target.value)} style={{padding:'7px',outline:"none",border:'none'}} name="location" id="" />

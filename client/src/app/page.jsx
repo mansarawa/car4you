@@ -29,7 +29,8 @@ export default function Home() {
     window.location.reload()
   }
 
- 
+  
+
   return (
     <body style={{ margin: '0px' }}>
       <div className={Page.container}>

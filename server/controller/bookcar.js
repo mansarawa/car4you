@@ -15,7 +15,7 @@ export  async function  bookcar(req,res){
         userid:userid
     })
     await newBook.save;
-   return res.json({book:newBook,message:"booking conformed",success :true}) 
+   return res.json({book:newBook,message:"conform",success :true}) 
 }
 export const getCar=async(req,res)=>{
     try {

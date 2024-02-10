@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { useState } from 'react'
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import axios from 'axios'
 import Register from './register.module.css'
@@ -11,9 +12,9 @@ const page = () => {
     const [username,setUsername]=useState()
     const [password,setPassword]=useState()
     const user=JSON.parse(localStorage.getItem("user"))
-    const handleSubmit=async()=>{
-        
-        const res=await fetch('http://localhost:3002/createuser',{
+    const handleSubmit=async(e)=>{
+      e.preventDefault();
+        const res=await fetch('http://localhost:3004/createuser',{
           method:'post',
           headers:{
             "Content-Type":"application/json"
@@ -36,6 +37,29 @@ const page = () => {
            }
   return (
     <div className='container'>
+       <nav className={Register.hnav}>
+      <ul className={Register.ul}>
+        <li className={Register.li}><Link href='/' className={Register.link}>Home</Link></li>
+        <li className={Register.li}><Link href='/service' className={Register.link}>Services</Link></li>
+        <li className={Register.li}><Link href='/terms' className={Register.link}>Terms&conditions</Link></li>
+        {!user && <li className={Register.li}><Link href='/registeruser' className={Register.link}>Register</Link></li>}
+        {!user ? (
+          <>
+            <li className={Register.li}><Link href='/login' className={Register.link}>Login</Link></li>
+          </>
+        ) : (
+          <>
+            <li className={Register.li}><Link href='/mybooking' className={Register.link}>My Bookings</Link></li>
+            <li className={Register.li}><Link onClick={handleLogout} href='' id={Register.logout} className={Register.link}>Logout</Link></li>
+          </>
+        )}
+        <div className={Register.burger}>
+          <div className={Register.line}></div>
+          <div className={Register.line}></div>
+          <div className={Register.line}></div>
+        </div>
+      </ul>
+    </nav>
     <form onSubmit={handleSubmit} className={Register.form}>
   <div className={Register.mb3}>
     <label htmlFor="exampleInputEmail1" className="form-label">
