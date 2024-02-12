@@ -29,7 +29,7 @@ export default function Page() {
 
   async function handleAccept(id) {
     try {
-      const res = await fetch('http://localhost:3002/accept', {
+      const res = await fetch('http://localhost:3004/accept', {
         method: 'put',
         headers: {
           'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ export default function Page() {
 
   async function handleComplete(id) {
     try {
-      const res = await fetch('http://localhost:3002/completed', {
+      const res = await fetch('http://localhost:3004/completed', {
         method: 'put',
         headers: {
           'Content-Type': 'application/json',
@@ -66,7 +66,7 @@ export default function Page() {
 
   async function handleReject(id) {
     try {
-      const res = await fetch('http://localhost:3002/reject', {
+      const res = await fetch('http://localhost:3004/reject', {
         method: 'put',
         headers: {
           'Content-Type': 'application/json',

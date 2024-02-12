@@ -8,7 +8,7 @@ import Innova from '../../assets/innova.png'
 import Dzire from '../../assets/dzire.png'
 import Thar from '../../assets/thar.jpg'
 import UserPhoto from '../../assets/userphoto.jpg'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Swift from '../../assets/swift.png'
 import { useRouter } from 'next/navigation'
 import Ertiga from '../../assets/ertiga.png'
@@ -17,7 +17,7 @@ import Carens from '../../assets/carens.png'
 import Alto from '../../assets/alto.png'
 export default function Home() {
   const router=useRouter()
-
+ 
    const user=JSON.parse(localStorage.getItem('user'))
   //  const myTimeout = setTimeout(() => window.location.reload(), 1000);
   //  function myStopFunction() {
@@ -26,10 +26,10 @@ export default function Home() {
   const handlelogout=async(e)=>{
     e.preventDefault();
     localStorage.clear("user") 
-    window.location.reload()
+   window.location.reload()
+   
   }
 
-  
 
   return (
     <body style={{ margin: '0px' }}>
@@ -42,7 +42,7 @@ export default function Home() {
             {!user && <li className={Page.li}><Link href='/registeruser' className={Page.link}>Register</Link></li>}
             {!user ? <li className={Page.li}><Link href='/login'  className={Page.link}>Login</Link></li>
             :<><li className={Page.li}><Link  href='/mybooking'className={Page.link} >My Bookings</Link></li>
-            <li className={Page.li}><Link onClick={handlelogout} href='' id={Page.logout} className={Page.link} >Logout</Link></li> </>}
+            <li className={Page.li}><Link onClick={handlelogout} href='' id={Page.logout} className={Page.link} >Login</Link></li> </>}
             <div className={Page.burger}>
               <div className={Page.line}></div>
               <div className={Page.line}></div>

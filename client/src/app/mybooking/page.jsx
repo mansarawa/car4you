@@ -81,7 +81,7 @@ export default  function page()  {
            <td>{item.drop}</td>
            <td>{item.pickupdate}</td>
            <td>{item.dropdate}</td>
-           <td>{item.status}</td>
+           <td style={{color:item.status === "accept"?"green":item.status === "rejected"?"red":item.status==="completed"?"#0d6efd":"black"}}>{item.status}</td>
           
           </tr>
         ))
