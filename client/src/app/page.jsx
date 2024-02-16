@@ -34,23 +34,29 @@ export default function Home() {
   return (
     <body style={{ margin: '0px' }}>
       <div className={Page.container}>
-        <nav className={Page.hnav}>
-          <ul className={Page.ul}>
-            <li className={Page.li}><Link href='/' className={Page.link}>Home</Link></li>
-            <li className={Page.li}><Link href='/service' className={Page.link}>Services</Link></li>
-            <li className={Page.li}><Link href='/terms' className={Page.link}>Terms&conditions</Link></li>
-            {!user && <li className={Page.li}><Link href='/registeruser' className={Page.link}>Register</Link></li>}
-            {!user ? <li className={Page.li}><Link href='/login'  className={Page.link}>Login</Link></li>
-            :<><li className={Page.li}><Link  href='/mybooking'className={Page.link} >My Bookings</Link></li>
-            <li className={Page.li}><Link onClick={handlelogout} href='' id={Page.logout} className={Page.link} >Login</Link></li> </>}
-            <div className={Page.burger}>
-              <div className={Page.line}></div>
-              <div className={Page.line}></div>
-              <div className={Page.line}></div>
-          </div>
-          </ul>
-          
-        </nav>
+      <nav className={Page.hnav}>
+      <ul className={Page.ul}>
+        <li className={Page.li}><Link href='/' className={Page.link}>Home</Link></li>
+        <li className={Page.li}><Link href='/service' className={Page.link}>Services</Link></li>
+        <li className={Page.li}><Link href='/terms' className={Page.link}>Terms&conditions</Link></li>
+        {!user && <li className={Page.li}><Link href='/registeruser' className={Page.link}>Register</Link></li>}
+        {!user ? (
+          <>
+            <li className={Page.li}><Link href='/login' className={Page.link}>Login</Link></li>
+          </>
+        ) : (
+          <>
+            <li className={Page.li}><Link href='/mybooking' className={Page.link}>My Bookings</Link></li>
+            <li className={Page.li}><Link onClick={handlelogout} href='' id={Page.logout} className={Page.link}>Logout</Link></li>
+          </>
+        )}
+        <div className={Page.burger}>
+          <div className={Page.line}></div>
+          <div className={Page.line}></div>
+          <div className={Page.line}></div>
+        </div>
+      </ul>
+    </nav>
         <header className={Page.header}>
           <div className={Page.hometext}>
             <h1 className={Page.movingtext} style={{ fontSize: '50px', marginBottom: '0' }}>CAR4YOU</h1>

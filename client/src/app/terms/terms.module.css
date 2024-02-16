@@ -21,3 +21,13 @@
   .burger{
     display: block;
   }
+  .terms
+  {
+    width: 90%;
+  
+    margin-left: 5%;
+  }
+  .termheading{
+    color: #0d6efd;
+    margin-bottom: 5px;
+  }

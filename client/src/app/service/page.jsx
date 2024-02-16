@@ -15,7 +15,7 @@ export default function page() {
     window.location.reload();
   };
   return (
-    <div className='container'>
+    <div className={Service.container}>
         <nav className={Service.hnav}>
       <ul className={Service.ul}>
         <li className={Service.li}><Link href='/' className={Service.link}>Home</Link></li>

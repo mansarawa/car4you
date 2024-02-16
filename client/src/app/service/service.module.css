@@ -1,3 +1,6 @@
+.container{
+  width: 100%;
+}
 .servicebox
 {
     display: flex;
@@ -11,7 +14,7 @@
     height: 200px;
 }
 .heading{
-    margin-top: 3%;
+    margin-top: 0%;
     margin-bottom: 3%;
     font-size: 50px;
     text-align: center;
@@ -53,9 +56,24 @@
     color: #0d6efd;
     text-decoration: none;
   }
-  .hnav{
-    height: 72px;
-  }
-  .burger{
-    display: block;
+
+  @media screen and  (max-width: 600px) and (min-width: 400px) {
+    .servicebox{
+      width: 100%;
+      margin-left: 5%;
+      flex-direction: column;
+    }
+    .carservice{
+      width: 90%;
+      margin-bottom: 10%;
+    }
+    .heading{
+      text-align: center;
+    }
+    .hnav{
+      height: 72px;
+    }
+   .burger{
+      display: block;
+    }
   }
