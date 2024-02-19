@@ -15,6 +15,7 @@ import Ertiga from '../../assets/ertiga.png'
 import Etios from '../../assets/etios.png'
 import Carens from '../../assets/carens.png'
 import Alto from '../../assets/alto.png'
+import Loader from './loading.js'
 export default function Home() {
   const router=useRouter()
  
@@ -32,6 +33,7 @@ export default function Home() {
 
 
   return (
+    <>
     <body style={{ margin: '0px' }}>
       <div className={Page.container}>
       <nav className={Page.hnav}>
@@ -196,6 +198,9 @@ export default function Home() {
           </div>
         </footer>
       </div>
+     
     </body>
+     <Loader/>
+    </>
   )
 }

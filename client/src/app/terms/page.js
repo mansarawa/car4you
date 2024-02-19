@@ -38,93 +38,90 @@ export default function page() {
     </nav>
     <div className={Terms.terms}>
    <h1 className={Terms.termheading}>Terms and Conditions for Car Rental</h1>
-          <p>
-            
-These terms and conditions outline the rules and regulations for the use of car-4-you's Website, located at [Your Website URL].
+       <p>
+       
+In addition to the vehicle are the following is included in the car rental: All tires, tools, documents, accessories as well as equipment.  The renter<br/>
+agrees to all conditions and terms printed on this contract and to the
+information written on the contract with the same number and date as these car rental terms.<br/><br/>
 
-By accessing this website we assume you accept these terms and conditions. Do not continue to use [Your Company Name]’s website if you do not agree to take all of the terms and conditions stated on this page.
+1. The renter fully agrees to the terms and conditions of this contract and has received a copy thereof.<br/><br/>
 
-The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
+2. The renter has received the mentioned vehicle and its accessories in proper and safe condition.<br/><br/>
 
-Cookies
+3. The renter agrees to return the vehicle to the lessor on the agreed date and place, as written in the contract, or earlier if the lessor so insists. Should the vehicle not be returned on the agreed time, a fee equal to 1/3 of the daily rate shall be charged for each hour of delay.<br/><br/>
 
-We employ the use of cookies. By accessing [Your Company Name]’s website, you agreed to use cookies in agreement with the car-4-you's Privacy Policy.
+4. Liability and driver insurance are according to Icelandic law. Third party liability insurance shall be equivalent to the amount stipulated by the car's insurance company at each time. The renters own liability for damages on the car is limited to the worth of the car. The renter can limit his liability by purchasing a collision damage waiver (CDW) for a fixed amount which is determined each time by the lessor.  The driver liability in excess of ISK 220,000,- for 2wd and 330,000,- for 4wd and vans.<br/><br/>
 
-Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
+5. The collision damage waiver (CDW) does not cover:<br/><br/>
+a) Damages done on purpose or by total carelessness of the driver.<br/><br/>
+b) Damages caused when the driver is intoxicated, under the influence of drugs, or by any other cause which renders him unfit to safely drive a vehicle.<br/><br/>
+c) Damages to the engine caused by water, such as when crossing un-bridged rivers or driving in water.<br/><br/>
+d) Damages which occur while the car is being raced or test-driven.<br/><br/>
+e) Damages caused through war activity, mutiny, riots, and uproar or by sabotage.<br/><br/>
+f) Burns on seats, carpets or floor mats.<br/><br/>
+g) Damages to wheels, tires, springs, batteries, glass (lights & windows), and radio as well as damages caused by theft of certain parts of the vehicle.<br/><br/>
+h) Damages caused by driving on bumpy roads on parts such as:<br/><br/>
+transmission, drive shafts, or other parts in or on the vehicle's under wagon. Damages which occur on the under wagon when the vehicle hits the uneven road, such as ridges left by road planers, or rocks stuck in the road or the roadside. Same applies to damages which occur when loose rocks or other items hit the vehicle while it is being driven.<br/><br/>
+i) Damages caused when the vehicle is driven where driving is forbidden, also by driving off-road, on trails not marked on charts as normal roads, on snow piles, on ice, over un-bridged rivers or streams, on beaches, in dirt or on any other kind of off-roads.<br/><br/>
+j) Damages when sand, gravel, ash, lava or other earth materials are blown on the vehicle.<br/><br/>
+k) Should the vehicle be moved by sea, damages caused to it by the ocean water will not be paid<br/><br/>.
+l) Damages caused by the wind blowing up the door while opening it.<br/><br/>
+m) Other cases are referred to the general conditions of the comprehensive vehicle insurance.<br/><br/>
 
-License
+ 
 
-Unless otherwise stated,car-4-youand/or its licensors own the intellectual property rights for all material on [Your Company Name]. All intellectual property rights are reserved. You may access this fromcar-4-youfor your own personal use subjected to restrictions set in these terms and conditions.
+6. SUPER CDW: CDW covers damages to the rental vehicle; it waives liability in case of any damages to the vehicle in excess of ISK 220.000 for 2wd and ISK 330.000 for 4wd and vans. But when you take Super CDW you change that to ISK 100.000 for 2wd and 160.000 ISK for 4wd and vans. Super CDW is available for ISK 1.300,- per day. But no insurance covers damages to the underside of the car.<br/><br/>
 
-You must not:
+7. The car must be operated and driven with great care. The renter shall be liable for all damage to the car and injury sustained by passengers caused by collision or accident, which is not paid by the insurance company of the vehicle.<br/><br/>
 
-Republish material from [Your Company Name]
-Sell, rent, or sub-license material from [Your Company Name]
-Reproduce, duplicate or copy material from [Your Company Name]
-Redistribute content from [Your Company Name]
-This Agreement shall begin on the date hereof.
+8. In case of a collision or accident, the renter must report it instantly to law enforcement authorities and to the lessor, and must not leave the scene of the accident or collision until such action has been taken and after the police has arrived on the scene.<br/><br/>
 
-Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website.car-4-youdoes not filter, edit, publish, or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of [Your Company Name],its agents, and/or affiliates. Comments reflect the views and opinions of the person who posts their views and opinions. To the extent permitted by applicable laws,car-4-youshall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
+9. Renter shall return the vehicle to the office of the lessor which has been agreed upon at the beginning of the rental period, along with all tires, tools, accessories and equipment in same condition as it was when received, though ordinary wear and tear is accepted. Lessor may repossess the vehicle without notice at any time if it is illegally parked, used in violation of law, against the terms of this agreement or is apparently abandoned.<br/><br/>
 
-[Your Company Name] reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
+10. Under no circumstances is it permitted to use the vehicle, operate or drive:<br/><br/>
+a) In violation of Icelandic law, or the conditions and terms of this contract.<br/><br/>
+b) For the transportation of passengers or property against payment.<br/><br/>
+c) To propel or tow any vehicle, trailer or other objects.<br/><br/>
+d) By any person other than the renter signing this contract, unless by written consent of lessor.<br/><br/>
+e) Off-roads, that is roads that are not marked as normal driving roads on a road map.<br/><br/>
 
-You warrant and represent that:
+11. Any violation of Icelandic law, or of any of the terms or conditions of this contract, by the renter or any other driver which the renter has granted permission to operate or drive the vehicle, renders the renter is fully responsible for all damages done to the vehicle what ever the cause may be.<br/><br/>
 
-You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;
-The Comments do not invade any intellectual property right, including without limitation copyright, patent, or trademark of any third party;
-The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy
-The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.
-You hereby grantcar-4-youa non-exclusive license to use, reproduce, edit, and authorize others to use, reproduce, and edit any of your Comments in any and all forms, formats, or media.
+12. The number of kilometers (km) the vehicle is driven while this contract is valid is decided by reading the standard km reading device (speedometer) attached to the vehicle by the manufacturer. Renter shall report immediately if the speedometer is not working or seizes to function during the rental period.<br/><br/>
 
-Hyperlinking to our Content
+13. Lessor shall not be liable for disappearance or damage to any property left, stored or transported by renter or other persons, in or on the vehicle, either before or after it has been returned to lessor.<br/><br/>
 
-The following organizations may link to our Website without prior written approval:
+14. Renter agrees to pay lessor on demand:<br/><br/>
+a) Deposit of the probable rental cost.<br/><br/>
+b) All expenses incurred by lessor in returning the vehicle back to lessor's station, if it has been left somewhere else, regardless of condition of the vehicle, roads or weather.<br/><br/>
+c) A sum equal to the value of all the tires (regardless of road conditions), the tools and accessories which have been damaged, lost or stolen from the vehicle.<br/><br/>
 
-Government agencies;
-Search engines;
-News organizations;
-Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and
-System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
-These organizations may link to our home page, to publications, or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement, or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.
+15. Renter is not authorized to have the vehicle or its accessories repaired or altered. The renter shall not permit any lien to be placed upon the vehicle without lessors prior consent. Renter shall pay all unauthorized charges in connection with the use, repairs, or safekeeping of the vehicle.<br/><br/>
 
-We may consider and approve other link requests from the following types of organizations:
+16. The rental fee is paid up front. Discount agreed upon from that fee will be discontinued on the 10th day of the following month. From that day highest possible monthly interest will be added to the whole sum. VAT  will be added to the discontinued discount.If it is written in the rental contract that discount is to be granted from the rental fee, this discount will be discontinued if renter causes injuries to another party or damages the vehicle and is not 100% in the right.<br/><br/>
 
-commonly-known consumer and/or business information sources;
-dot.com community sites;
-associations or other groups representing charities;
-online directory distributors;<br/>
-internet portals;<br/>
-accounting, law, and consulting firms; and<br/>
-educational institutions and trade associations.<br/>
-We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of [Your Company Name]; and (d) the link is in the context of general resource information.<br/>
+17. Renter agrees to pay all costs which lessor may incur in collecting payment by law. Renters self risk with Gravel Protection is 20.000isk.<br/><br/>
 
-These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.<br/>
+18. Any legal proceedings arising from this contract shall be conducted before the Reykjavik Municipal Court without prior submission to a board of conciliation.<br/><br/>
 
-If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to [Your Company Name]. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.<br/>
+19. All car must be retuned with full tank of gas . Service for refuel is 2.500 kr.<br/><br/>
 
-Approved organizations may hyperlink to our Website as follows: <br/>
+20. Renter agrees to pay all costs to Lessor incurred in collecting payment from Renter. A credit card number or imprint is taken at start of all rentals for security reasons. It may be used to pay all extra charges, including extra kilometre's, extra days, extra insurance, parking fines, refilling gasoline, damages or any cost due to the car rental as a result of the renters use of the car.<br/><br/>
 
-By use of our corporate name; or <br/>
-By use of the uniform resource locator being linked to; or <br/>
-By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site. <br/>
-No use of car-4-you's logo or other artwork will be allowed for linking absent a trademark license agreement. <br/>
-
-
-
-Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website. <br/>
-
-Content Liability <br/>
-
-We shall not be held responsible for any content that appears on your Website. You agree to protect and defend us against all claims that are rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene, or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third-party rights.<br/>
-
-Your Privacy <br/>
-
-Please read Privacy Policy
-
-
-          </p>
+CANCELLATION POLICY:<br/><br/>
+If you cancel 15 days or more before pick up time:<br/><br/>
+- you pay nothing or you get 100% refund of what you have already paid.<br/><br/>
+<br/><br/>
+If you cancel 14 days before pickup time:<br/><br/>
+- you pay 20% of the total or you get 80% refund if you have already paid.<br/><br/>
+If you cancel 48 hrs. before pick up time or a no-show:<br/><br/>
+- you pay 80% of the total or you get 20% refund if you have already paid.<br/><br/>
+       </p>
 
     </div>
+          <footer style={{backgroundColor:'#0d6efd',height:'50px',display:'flex',justifyContent:'center',alignItems:'center'}}>
+            <h4 style={{color:"white",textAlign:'center',}}>@ Copyright 2021-mansarawa</h4>
+          </footer>
     </div>
   )
 }

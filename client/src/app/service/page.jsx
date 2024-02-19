@@ -45,7 +45,7 @@ export default function page() {
           <Image src={Carservice} className={Service.imgser} />
           <div className={Service.txtbox}>
             <h1>Car Service</h1>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sapiente necessitatibus? Quos nesciunt ea obcaecati praesentium similique deleniti at veritatis.</h2>
+            <h3>We provide a wide range of excellent car services, including Periodic Services, Denting & Painting, Battery Replacement, Car Spa & Cleaning, AC Service & Repair, Tyre Replacement & Wheelcare, Car Insurance Claims, Car Detailing, Custom Services, Windshields & Glass Replacement, Lights & Fitment, Car Accessories, and more.</h3>
 
           </div>
 
@@ -54,7 +54,7 @@ export default function page() {
           <Image src={Cardriver} style={{ borderRadius: '100%', width: '200px', height: '200px' }} />
           <div className={Service.txtbox}>
             <h1>Driver</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsam rem suscipit dicta obcaecati illum accusamus sequi saepe labore, nulla ex consequuntur nesciunt, cumque ratione minima tempore delectus neque commodi.</h2>
+            <h2>All drivers working in Car-4-You Cabs from Rajasthan, well trained, can speak multiple languages and most importantly they all have a commercial driving license from Jaipur Authority.</h2>
 
           </div>
         </div>
