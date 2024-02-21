@@ -18,7 +18,6 @@
     color: white;
   }
   .footermenu{
-    
     display: flex;
   }
   .item h3{
@@ -26,4 +25,17 @@
     margin-top: 2%;
   }
   
-  
+  @media screen and  (max-width: 600px) and (min-width: 400px){
+    .footermain{
+      flex-direction: column;
+     
+    }
+    .footermenu{
+      flex-direction: column;
+    }
+    .item{
+      margin-left: 20%;
+      margin-top: 5%;
+      width: 100%;
+    }
+  }

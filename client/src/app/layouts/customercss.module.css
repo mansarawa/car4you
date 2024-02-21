@@ -34,3 +34,11 @@
         animation: zoomOut 3s ease infinite ;
     font-size: 40px;
   }
+  @media  screen and (max-width:600px) and (min-width:400px) {
+    .testimonial{
+      flex-direction: column;
+    }
+    .testbox{
+      width: 90%;
+    }
+  }

@@ -8,7 +8,7 @@ export default function Navbar(){
     const user=JSON.parse(localStorage.getItem('user'))
     const handlelogout=async(e)=>{
         localStorage.clear();
-        window.location.reload()
+        // window.location.reload()
         router.push('/login')
     }
     return(
