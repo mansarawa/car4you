@@ -100,7 +100,7 @@ export default function page  (params)  {
     </nav>
         <div className={Book.booking}>
           <form onSubmit={handlesubmit}>
-          <h1 className={Book.heading}>Booking For {carname.charAt(0).toUpperCase() + carname.slice(1)}</h1>
+          <h1 className={Book.heading}>Booking For {carname ? carname.charAt(0).toUpperCase() + carname.slice(1) : 'Car'}</h1>
           <h1 className={Book.heading2}>{alert}</h1>
           <div className={Book.inputbox}>
             <span>Pick up </span> 

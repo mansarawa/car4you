@@ -9,8 +9,6 @@ export  async function  bookcar(req,res){
         name:name,
         status:status,
         carname:carname,
-        pickuptime:pickuptime,
-        droptime:droptime,
         dropdate:dropdate,
         userid:userid
     })
