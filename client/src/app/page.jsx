@@ -20,6 +20,8 @@ import Navbar from './layouts/navbar.js'
 import Vehicle from './layouts/vehicle.js'
 import Customer from './layouts/customer.js'
 import Footer from './layouts/footer.js'
+import WhyChooseUs from './layouts/whychooseus.js'
+import GetStarted from './layouts/getstarted'
 export default function Home() {
   const router=useRouter()
  
@@ -66,7 +68,9 @@ export default function Home() {
        
        
         </section>
-        <Customer/>
+        {/* <Customer/> */}
+        <GetStarted/>
+        <WhyChooseUs/>
        <Footer/>
       </div>
      

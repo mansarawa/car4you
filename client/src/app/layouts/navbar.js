@@ -6,11 +6,14 @@ import { useRouter } from "next/navigation"
 export default function Navbar(){
     const router=useRouter()
     const user=JSON.parse(localStorage.getItem('user'))
-    const handlelogout=async(e)=>{
-        localStorage.clear();
-        // window.location.reload()
-        router.push('/login')
-    }
+    const handlelogout = async (e) => {
+      
+      if (router.pathname !== '/mybooking') {
+          router.push('/login');
+          localStorage.clear();
+      }
+  }
+  
     return(
         <>
           <nav className={Nav.hnav}>

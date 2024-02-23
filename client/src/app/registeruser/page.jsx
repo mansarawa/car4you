@@ -28,7 +28,7 @@ const page = () => {
         const result =await res.json();
         if(result.success)
         {         
-            router.push('/')
+            router.push('/login')
             console.log("created successfully")
         }
         else{

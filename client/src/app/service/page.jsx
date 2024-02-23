@@ -40,6 +40,7 @@ export default function page() {
       </ul>
     </nav>
       <h1 className={Service.heading}>OUR SERVICES</h1>
+      
       <div className={Service.servicebox}>
         <div className={Service.carservice}>
           <Image src={Carservice} className={Service.imgser} />

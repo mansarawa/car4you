@@ -1,0 +1,28 @@
+.container{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+.item{
+    width: 45%;
+    padding-top: 2%;
+   display: flex;
+}
+.item div{
+    margin-right: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.photo{
+    width: 100px;
+    border-radius: 10px;
+    background-color: #0d6efd;
+    height: 100px;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+}
