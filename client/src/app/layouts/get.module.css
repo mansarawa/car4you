@@ -1,13 +1,14 @@
 .container{
     width: 100%;
-   
     display: flex;
     margin-bottom: 5%;
+    
     margin-top: 5%;
     flex-direction: row-reverse;
     background-color: #0d6efd;
     align-items: center;
 }
 .item{
-    width: 50%;
+    margin-left: 5%;
+        width: 50%;
 }

@@ -16,7 +16,7 @@ export const acceptcontroller = async (req, res) => {
     
 
     // Save the updated book
-    await user.save();
+     user.save();
 
     return res.json({ message: 'Updated', result: user.status });
   } catch (error) {

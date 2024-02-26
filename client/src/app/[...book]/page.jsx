@@ -16,7 +16,7 @@ export default function page  (params)  {
 
   const [pickup, setPickup] = useState()
   const [drop,setDrop]=useState();
-  const [alert,setAlert]=useState('Your booking has been sent');
+  const [alert,setAlert]=useState('');
   const carname=params.params.book[1];
   const [pickupdate,setPickpupdate]=useState();
   const [dropdate,setDropdate]=useState();
@@ -63,6 +63,9 @@ export default function page  (params)  {
     {
       console.log("booking conformed")
       setAlert('Congratulations Your booking has been sent')
+      setInterval(()=>{
+        router.push('/mybooking')
+      },3000)
     }
    // router.push('/');
     

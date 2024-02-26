@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer(){
     return(
         <>
-             <footer>
+             <footer style={{width:'100%'}}>
       
       <div className={Footcss.footermain}>
         <div className={Footcss.item}>

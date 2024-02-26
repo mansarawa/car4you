@@ -4,7 +4,7 @@ import Admin from './admin.module.css';
 
 export default function Page() {
   const [data, setData] = useState([]);
-
+ 
   async function fetchData() {
     try {
       const res = await fetch('http://localhost:3004/admin', {

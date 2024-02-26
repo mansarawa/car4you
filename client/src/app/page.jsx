@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <>
-    <body style={{ margin: '0px' }}>
+    <body style={{ margin: '0px'}}>
       <div className={Page.container}>
       <Navbar/>
         <header className={Page.header}>
@@ -71,7 +71,7 @@ export default function Home() {
         {/* <Customer/> */}
         <GetStarted/>
         <WhyChooseUs/>
-       <Footer/>
+        <Footer/> 
       </div>
      
     </body>

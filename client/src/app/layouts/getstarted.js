@@ -7,7 +7,7 @@ export default function GetStarted(){
         <>
             <div className={Get.container}>
                 <div className={Get.item}>
-                    <Image src={getcar} />
+                    <Image src={getcar} style={{width:"100%"}}/>
                 </div>
                 <div className={Get.item}>
                     <h1 style={{marginBottom:'5%'}}>Ready To Get Started ?</h1>
