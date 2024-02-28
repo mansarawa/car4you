@@ -36,7 +36,7 @@ export default function page  (params)  {
   console.log(user)
   const handlesubmit=async(e)=>{
     e.preventDefault();
-    const res=await fetch('http://localhost:3004/book',{
+    const res=await fetch('https://car4you-5.onrender.com/book',{
       method:"post",
       headers:{
         "Content-Type":'application/json'
