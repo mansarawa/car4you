@@ -11,7 +11,7 @@ import adminlogin from './routes/adminlogin.js';
 import accept from './routes/bookupdate.js';
 import reject from './routes/reject.js';
 import completed from './routes/completed.js';
-import sendmail from './routes/sendmail.js';
+
 const app=express();
 app.use(cors());
 app.use(express.json())
@@ -22,7 +22,7 @@ app.use('/',bookrouter)
 app.use('/',show)
 app.use('/',adminshow)
 app.use('/',adminregister)
-// app.use('/',sendmail)
+
 app.use('/',adminlogin)
 app.use('/',accept)
 app.use('/',reject)
