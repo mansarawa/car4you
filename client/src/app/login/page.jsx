@@ -17,7 +17,7 @@ const page = () => {
     const user=JSON.parse(localStorage.getItem("user"))
     const handleSubmit=async(e)=>{
       e.preventDefault();
-        const res=await fetch('https://car4you-5.onrender.com/login',{
+        const res=await fetch('https://car4you-w1rx.onrender.com/login',{
           method:'post',
           headers:{
             "Content-Type":"application/json"

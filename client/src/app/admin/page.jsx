@@ -7,7 +7,7 @@ export default function Page() {
  
   async function fetchData() {
     try {
-      const res = await fetch('https://car4you-5.onrender.com/admin', {
+      const res = await fetch('https://car4you-w1rx.onrender.com/admin', {
         method: 'get',
         headers: {
           'Content-Type': 'application/json',
@@ -29,7 +29,7 @@ export default function Page() {
 
   async function handleAccept(id) {
     try {
-      const res = await fetch('https://car4you-5.onrender.com/accept', {
+      const res = await fetch('https://car4you-w1rx.onrender.com/accept', {
         method: 'put',
         headers: {
           'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ export default function Page() {
 
   async function handleComplete(id) {
     try {
-      const res = await fetch('https://car4you-5.onrender.com/completed', {
+      const res = await fetch('https://car4you-w1rx.onrender.com/completed', {
         method: 'put',
         headers: {
           'Content-Type': 'application/json',
@@ -66,7 +66,7 @@ export default function Page() {
 
   async function handleReject(id) {
     try {
-      const res = await fetch('https://car4you-5.onrender.com/reject', {
+      const res = await fetch('https://car4you-w1rx.onrender.com/reject', {
         method: 'put',
         headers: {
           'Content-Type': 'application/json',

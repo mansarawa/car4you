@@ -12,7 +12,7 @@ export default function page() {
         try {
             
       
-        const req=await fetch('https://car4you-5.onrender.com/adminregister',{
+        const req=await fetch('https://car4you-w1rx.onrender.com/adminregister',{
             method:'post',
             headers:{
                 'Content-Type':'application/json'

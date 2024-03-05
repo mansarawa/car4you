@@ -9,7 +9,7 @@ export default  function page()  {
     const userid=user._id;
     async function handelfunction(){
       try {
-        const res= await fetch('https://car4you-5.onrender.com/mybooking',
+        const res= await fetch('https://car4you-w1rx.onrender.com/mybooking',
       {
         method:'post',
         headers:{
