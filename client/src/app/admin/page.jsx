@@ -7,7 +7,7 @@ export default function Page() {
  
   async function fetchData() {
     try {
-      const res = await fetch('https://car4you-w1rx.onrender.com/admin', {
+      const res = await fetch('https://car4you-1-m3s8.onrender.com/admin', {
         method: 'get',
         headers: {
           'Content-Type': 'application/json',
